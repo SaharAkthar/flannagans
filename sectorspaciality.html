@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Nunito+Sans:wght@300&family=Poppins&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/97d26515f5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
+    <title>Home</title>
+</head>
+<style>
+    div.mg-ab {
+        margin: 3% 10% 3% 10%;
+    }
+</style>
+
+<body>
+    <div class="container ">
+        <div class="row mt-4 mb-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-5 float-start">
+                <img style="align-items: flex-start;" src="images\Flannagan-logo.png" alt="">
+            </div>
+            <div class="col-md-3 ">
+                <table>
+                    <tr>
+                        <th colspan="1" class="table-active fa-2x "> <span
+                                class="fas fa-phone-alt icon_marg fa-1x"></span>
+                        </th>
+                        <td>
+                            <h5>Teesside Office</h5>
+                            <h5><b>0142 989 0111</b></h5>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-3 ">
+                <table>
+                    <tr>
+                        <th colspan="1" class="table-active fa-2x "> <span
+                                class="fas fa-phone-alt icon_marg fa-1x"></span>
+                        </th>
+                        <td>
+                            <h5>Gateshead Office</h5>
+
+                            <h5><b>0191 4605388</b></h5>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-bg box-shade1">
+        <div class="container justify">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
+                (click)="drawer.close()">
+                <span class=" navbar-toggler-icon "></span>
+            </button>
+            <div class=" collapse navbar-collapse formpadding" id="navbarNavDropdown">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html  
+                            ">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="team.html">Our Team</a>
+                    </li>
+                    <li class="nav-item dropdown navbar-dark nav-bg">
+                        <a class="nav-link active dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" href="servicespeciality.html">
+                            Service Specialities
+                        </a>
+                        <ul class="sub-menu dropdown-menu nav-icon " aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item nav-icon " href="accounting.html">Accounting</a></li>
+                            <li><a class="dropdown-item nav-icon " href="payroll.html">Payroll</a></li>
+                            <li><a class="dropdown-item nav-icon " href="forensic.html">Forensic</a>
+                            <li><a class="dropdown-item nav-icon" href="taxation.html">Taxation</a>
+                            <li><a class="dropdown-item nav-icon " href="business.html">Business Support</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown navbar-dark nav-bg">
+                        <a class="nav-link dropdown-toggle active" href="sectorspaciality.html"
+                            id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sector Speciality
+                        </a>
+                        <ul class="dropdown-menu navbar-dark nav-bg" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item " href="charities.html">Charaties</a></li>
+                            <li><a class="dropdown-item " href="medical-speciality.html">Medical
+                                    Specialities</a>
+                            <li><a class="dropdown-item " href="retail-and-wholesale.html">Retail and
+                                    Wholesale</a>
+                            <li><a class="dropdown-item " href="construction-and-property.html">Construction
+                                    and
+                                    property</a></li>
+                            <li><a class="dropdown-item " href="it-sector.html">IT Sector</a></li>
+                            <li><a class="dropdown-item " href="manufacturing.html">Manufacturing</a>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://www.gov.uk/estimate-income-tax">UK Tax
+                            Calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="position:relative">
+        <div class="sectorimg">
+            <h1 class="subtitle">Sector Specialities
+            </h1>
+        </div>
+        <div class="custom-shape-divider-bottom-1643476699">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 4%;">
+        <div class="row ">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+
+                <p>Today’s businesses are exposed to a lot of challenges and we commit to help businesses like yours
+                    to face those challenges. Our broad client base and range of businesses from start-ups to
+                    sizeable private companies help them to manage their business challenges. We have specialist
+                    accounting services knowledge and expertise in producing accounts, payrolls, Taxation, Forensic
+                    accounting reporting and Business support to certain industries including Healthcare, Solicitor
+                    practices, Charities and Pension Schemes.
+                </p>
+                <p>Our professional accounting excellence and commitment to our clients have firmly established us
+                    as one of the leading independent chartered accountancy practices in the North East. We provide
+                    excellent accounting support and services to our clients with the intent to far exceed the
+                    traditional account preparation services. And also endeavour to get very close to our clients to
+                    assist them in developing their business internal systems and controls which will help their
+                    business develop and grow in the fiercely competitive business world.
+                </p>
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card  bordercolor box-shade cardsize h-100">
+                    <div class="card-body">
+                        <i class="fas fa-capsules fa-4x d-flex justify-content-center py-3"></i>
+                        <h4 class="card-title text-center "><b>MEDICAL SPECIALIST</b></h4>
+                        <p class="card-text text-center pb-5">Accountants at Flannagans offer medical professionals
+                            advice and
+                            guidance that is tailored to the unique environment in which healthcare industry
+                            workers
+                            live. They can help you make the most professionally…</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card  bordercolor box-shade h-100">
+                    <div class="card-body">
+                        <i class="fas fa-hands-helping fa-4x d-flex justify-content-center py-3"></i>
+                        <h4 class="card-title text-center "><b>CHARITIES</b></h4>
+                        <p class="card-text text-center pb-5">
+                            We offer a wide range of service to Charities
+                            including
+                            Gift Aid
+                            declarations, Donations and Grant Funding. We aim to understand your
+                            specific needs
+                            and
+                            help to overcome any obstacles you may face.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bordercolor box-shade h-100">
+                    <div class="card-body">
+                        <i class="fas fa-shopping-cart fa-4x d-flex justify-content-center py-3"></i>
+                        <h4 class="card-title text-center"><b>RETAIL AND WHOLESALE</b></h4>
+                        <p class="card-text text-center pb-5">The retail sector has always been one of the
+                            most
+                            competitive
+                            business
+                            environments to operate in, but with the rapid growth of direct marketing,
+                            telephone
+                            sales, Internet trading, and overseas competition…</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container div-padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card  bordercolor box-shade cardsize h-100">
+                    <div class="card-body">
+                        <i class="fas fa-capsules fa-4x d-flex justify-content-center py-3"></i>
+                        <h4 class="card-title text-center "><b>CONSTRUCTION AND PROPERTY</b></h4>
+                        <p class="card-text text-center pb-5">Buying, investing, renting or building a
+                            property is a
+                            complex business and with it comes complex tax issues. Although it is
+                            possible to
+                            navigate and understand the property and construction tax but if you get
+                            that wrong,
+                            this can become a minefield.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card  bordercolor box-shade h-100">
+                    <div class="card-body">
+                        <i class="fas fa-hands-helping fa-4x d-flex justify-content-center py-3"></i>
+                        <h4 class="card-title text-center "><b>IT SECTOR</b></h4>
+                        <p class="card-text text-center pb-5">
+                            We have extensive knowledge and experience in
+                            dealing with
+                            accounts for IT Contractors and IT Companies. We understand the complexity
+                            of the
+                            business with customers across the globe and multi-national IT Supply
+                            chains.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bordercolor box-shade h-100">
+                    <div class="card-body">
+                        <i class="fas fa-shopping-cart fa-4x d-flex justify-content-center py-3"></i>
+                        <h4 class="card-title text-center"><b>MANUFACTORING</b></h4>
+                        <p class="card-text text-center pb-5">
+                            In addition to our core services of
+                            accountancy, taxation
+                            and payroll, We at ‘Flannagans’ also provide you our accounting services for
+                            manufacturing sector. Where our knowledge and understanding of the
+                            manufacturing sector
+                            allows us to understand your specific requirement based on your business
+                            situation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="back-img bottompadding">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 ">
+                    <h1 class="text-center " style="font-size: 50px">Ready to Buy?
+                    </h1>
+                    <h4 class="text-center py-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Phasellus
+                        lacinia
+                        velit
+                        a
+                        feugiat
+                        finibus. Morbi iaculis diam id tellus iaculis, eu pretium metus fermentu
+                    </h4>
+                    <div class="d-flex justify-content-center  " style="padding: 15px;">
+                        <button class="button text-uppercase "><a class="text-decoration-none text-white"
+                                href="<%-'contact'%>">make an appointment</a></button>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bg pt-5 ">
+
+        <footer id="main-footer">
+            <div class="container">
+                <div class="row padding">
+                    <div class="col-md-4">
+
+                        <div id="footer-widgets" class="clearfix">
+                            <h4 class="title" style="color:#0c51bb">Follow me on Twitter</h4>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <a class="twitter-timeline" data-height="300" data-width="270" data-theme="light"
+                                data-link-color="#3b94d9" data-border-color="#f5f5f5"
+                                href="https://twitter.com/flannaccounts">Tweets by
+                                @flannaccounts</a>
+                        </div> <!-- end .fwidget -->
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="footer-widget">
+                            <div id="text-2" class="fwidget et_pb_widget widget_text">
+                                <h4 class="title" style="color: #0c51bb;">Teesside Office</h4>
+                                <div class="textwidget">
+                                    <p>3A Evolution<br />
+                                        Wynyard business park<br />
+                                        Wynyard<br />
+                                        TS22 5TB<br />
+                                        <a class="text-decoration-none text-white" href="mailto:info@flannagans.co.uk">
+                                            info@flannagans.co.uk</a><br />
+                                        0142 989 0111<br />
+                                        0142 989 0222
+                                    </p>
+                                </div>
+                            </div> <!-- end .fwidget -->
+                        </div> <!-- end .footer-widget -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-widget">
+                            <div id="text-3" class="fwidget et_pb_widget widget_text">
+                                <h4 class="title" style="color: #0c51bb;">Gateshead Office</h4>
+                                <div class="textwidget">
+                                    <p>7 Bankside<br />
+                                        The Watermark<br />
+                                        Gateshead NE11 9SY<br />
+                                        <a class="text-decoration-none text-white"
+                                            href="mailto:gateshead@flannagans.co.uk">gateshead@flannagans.co.uk</a><br />
+                                        0191 4605388<br />
+                                        0191 2478111
+                                    </p>
+                                </div>
+                            </div> <!-- end .fwidget -->
+                        </div> <!-- end .footer-widget -->
+                    </div>
+                </div> <!-- #footer-widgets -->
+            </div>
+            <div class="copyright copy-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-7">
+                            © 2022 - Design and Developed by
+                        </div>
+                        <div class="col-md-3">
+
+                            <a href="https://www.facebook.com/Flannagansaccountants/">
+                                <i style="color: darkgrey;" class="fab fa-facebook-f px-3 fa-2x"></i></a>
+                            <a href="https://twitter.com/flannaccounts">
+                                <span> <i style="color: darkgrey;" class="fab fa-2x fa-twitter ms-1 px-2"></i></span>
+                            </a>
+                        </div>
+
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+            </div> <!-- .container -->
+        </footer> <!-- #main-footer -->
+    </div>
+</body>
+
+</html>
